@@ -1,7 +1,15 @@
-[
-  {
-    "id": 1,
-    "task": "first task",
-    "completed": false
-  }
-]
+{
+  "uid": 3,
+  "incomplete": [
+    {
+      "id": 1,
+      "title": "by"
+    },
+    {
+      "id": 2,
+      "title": "hello"
+    }
+  ],
+  "progress": [],
+  "completed": []
+}

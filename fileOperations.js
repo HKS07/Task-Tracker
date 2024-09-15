@@ -1,9 +1,26 @@
 import fs from 'fs';
+import { fileURLToPath } from 'url';
 import path from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 
 // Path to the tasks.json file
 const tasksFile = path.join(__dirname, 'tasks.json');
+
+const initialzeTaskFile  = () => {
+    if(!fs.existsSync(tasksFile)){
+        fs.writeFileSync(tasksFile, JSON.stringify({}));
+        const data = {
+            uid: 0,
+            incomplete: [],
+            progress: [],
+            completed: []
+        };
+        saveTasks(data);
+    }
+}
 
 // Function to load tasks from JSON
 const loadTasks = () => {
@@ -18,4 +35,5 @@ const saveTasks = (tasks) => {
     fs.writeFileSync(tasksFile, dataJSON);
 };
 
-export {loadTasks, saveTasks};
+
+export {loadTasks, saveTasks, initialzeTaskFile };
