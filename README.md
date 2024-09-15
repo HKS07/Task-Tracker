@@ -93,5 +93,7 @@ Himanshu Kumar Singh
 
 ## Project URL
 
-For more details, visit the [TaskTracker GitHub repository](https://github.com/HKS07/Task-Tracker) : https://github.com/HKS07/Task-Tracker. 
+For more details, visit the [TaskTracker GitHub repository](https://github.com/HKS07/Task-Tracker).
+
+https://roadmap.sh/projects/task-tracker
 
