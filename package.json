@@ -1,0 +1,11 @@
+{
+  "name": "tasktracker",
+  "version": "1.0.0",
+  "description": "This is a cli used to track tasks and perfrom CRUD operations on them.",
+  "main": "index.js",
+  "scripts": {
+    "task-cli":"node index.js"
+  },
+  "author": "Himanshu Kumar Singh",
+  "license": "MIT"
+}
