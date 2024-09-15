@@ -72,7 +72,7 @@ After setting up, you can use the CLI with the following commands:
 - `task-cli add "title"`: Adds a new task with the given title.
 - `task-cli list-all`: Lists all tasks.
 - `task-cli list-by-status status`: Lists tasks filtered by status.
-- `task-cli move id current-status [next-status]`: Changes the status of a task identified by id. If next-status is not provided, the status will be updated to "in-progress".
+- `task-cli move id current-status [next-status]`: Changes the status of a task identified by id. If next-status is not provided, the status will be updated to next status.
 - `task-cli remove id current-status`: Removes a task identified by id and current-status.
 
 
