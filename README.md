@@ -67,6 +67,14 @@ After setting up, you can use the CLI with the following commands:
   task-cli remove "task-id" "current-status"
   ```
 
+## Statuses
+
+Tasks can have one of the following statuses:
+
+- **Incomplete**: The task has not yet been started or completed.
+- **Progress**: The task is currently being worked on.
+- **Completed**: The task has been finished.
+
 ## Command Details
 
 - `task-cli add "title"`: Adds a new task with the given title.
