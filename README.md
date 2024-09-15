@@ -1,7 +1,3 @@
-Here's a sample README for your GitHub project:
-
----
-
 # TaskTracker CLI
 
 ## Description
@@ -26,6 +22,16 @@ To set up the project, follow these steps:
    ```bash
    npm install
    ```
+
+## Setup
+
+To use the CLI globally, you can link it:
+
+```bash
+npm link
+```
+
+This allows you to run `task-cli` from anywhere in your terminal.
 
 ## Usage
 
@@ -69,15 +75,7 @@ After setting up, you can use the CLI with the following commands:
 - `task-cli move id current-status [next-status]`: Changes the status of a task identified by id. If next-status is not provided, the status will be updated to "in-progress".
 - `task-cli remove id current-status`: Removes a task identified by id and current-status.
 
-## Setup
 
-To use the CLI globally, you can link it:
-
-```bash
-npm link
-```
-
-This allows you to run `task-cli` from anywhere in your terminal.
 
 ## License
 
